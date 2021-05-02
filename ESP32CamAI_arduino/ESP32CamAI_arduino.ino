@@ -42,8 +42,8 @@ enum TRACK{
   TRACK_STOP
 };
 
-const char* ssid = "p4f";    // <<< change this as yours
-const char* password = "roboticslearner"; // <<< change this as yours
+const char* ssid = "iPRIMUS-5A7B";    // <<< change this as yours
+const char* password = "BBYY3RCAPB"; // <<< change this as yours
 //holds the current upload
 int cameraInitState = -1;
 uint8_t* jpgBuff = new uint8_t[68123];
@@ -320,4 +320,3 @@ void loop(void) {
   }
   #endif
 }
-
